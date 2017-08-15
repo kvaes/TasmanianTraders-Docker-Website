@@ -6,29 +6,25 @@
         "type": "string",
         "metadata": {
             "description": "Container image to deploy. Should be of the form accountName/imagename:tag for images stored in Docker Hub or a fully qualified URI for a private registry like the Azure Container Registry."
-        },
-        "defaultValue": "microsoft/aci-helloworld"
+        }
     },
     "imageRegistryLoginServer": {        
         "type": "string",
         "metadata": {
-            "description": "Container image to deploy. Should be of the form accountName/imagename:tag for images stored in Docker Hub or a fully qualified URI for a private registry like the Azure Container Registry."
-        },
-        "defaultValue": "microsoft/aci-helloworld"
+            "description": "Server Name of the Container Server Registry."
+        }
     },
     "imageUsername": {        
         "type": "string",
         "metadata": {
-            "description": "Container image to deploy. Should be of the form accountName/imagename:tag for images stored in Docker Hub or a fully qualified URI for a private registry like the Azure Container Registry."
-        },
-        "defaultValue": "microsoft/aci-helloworld"
+            "description": "Login Name of the Container Server Registry."
+        }
     },
     "imagePassword": {        
         "type": "string",
         "metadata": {
-            "description": "Container image to deploy. Should be of the form accountName/imagename:tag for images stored in Docker Hub or a fully qualified URI for a private registry like the Azure Container Registry."
-        },
-        "defaultValue": "microsoft/aci-helloworld"
+            "description": "Login Password of the Container Server Registry."
+        }
     }
   },
   "variables": {
